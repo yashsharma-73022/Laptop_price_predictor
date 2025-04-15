@@ -1,5 +1,6 @@
 streamlit
-scikit-learn==1.6.1
-numpy>=1.24.0
-pandas  # You likely need pandas for this app as well
-# Add any other dependencies specific to this app
+pickle  # Explicitly include, although often part of standard Python
+numpy>=2.2.0  # Using a more recent version compatible with Python 3.12+
+scikit-learn==1.6.1  # The library needed for your pickled model
+base64
+pandas  # Your code likely uses pandas for the 'df.pkl' DataFrame
