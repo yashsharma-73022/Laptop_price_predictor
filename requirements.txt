@@ -1,5 +1,5 @@
 streamlit
 pandas==2.1.4
-scikit-learn==1.6.1
-numpy==2.0.2
-
+scikit-learn==1.6.1  # Keep this if your app needs it
+numpy>=1.26.0,<2.0  # Or try a specific version like numpy==1.26.4
+# ... other dependencies ...
