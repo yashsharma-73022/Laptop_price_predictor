@@ -1,7 +1,7 @@
-#💻 Laptop Price Predictor
+# 💻 Laptop Price Predictor
 This project aims to predict the price of a laptop based on various features such as brand, processor, RAM, storage, and more. It leverages machine learning techniques to provide accurate price estimations.​
 
-##🚀 Features
+## 🚀 Features
 Data preprocessing and analysis using pandas and NumPy
 
 Visualization of data distributions and correlations with matplotlib and seaborn
